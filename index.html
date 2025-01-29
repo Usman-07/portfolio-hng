@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://picsum.photos/id/237/600/350" alt="Profile Picture" class="profile-picture" data-testid="profilePicture"  width="150px" height="150px">
+
+        <h2 class="full-name" data-testid="fullName">Olalekan Usman</h2>
+        <p class="job-title" data-testid="jobTitle">Frontend Developer</p>
+
+        <p class="short-bio" data-testid="shortBio">
+            Passionate frontend developer with experience in React.js, Next.js, and UI/UX design. I love creating clean, responsive, and interactive user interfaces.
+        </p>
+
+        <p class="location" data-testid="currentLocation">Lagos, Nigeria</p>
+
+        <p class="email" data-testid="emailAddress">
+            <a href="mailto:johndoe@example.com" class="email-link">lekanusman07@gmail.com</a>
+        </p>
+
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://github.com/Usman-07" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/usman-07" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/usman-07" target="_blank">Twitter</a>
+        </div>
+
+        <p class="utc-time" data-testid="currentTimeUTC"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
